@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Process_GNSS_rawdata", "Process_GNSS_rawdata.pyproj", "{EC921F31-9A03-4D55-A35D-3F8649759CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC921F31-9A03-4D55-A35D-3F8649759CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC921F31-9A03-4D55-A35D-3F8649759CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2536F95-3A2D-4D5C-8FBD-7F83C70D5F0E}
+	EndGlobalSection
+EndGlobal

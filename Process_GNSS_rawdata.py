@@ -28,10 +28,11 @@ def covariance(x_set, y_set):
         
 
 def main():
-    x_set, y_set = get_long_lat("blocked_gpgga.txt")
+    x_set, y_set = get_long_lat("new_gpgga.txt")
     result = covariance(x_set, y_set)
     print(result)
-    plt.scatter(x_set,y_set)
+    print(np.mean(x_set),np.mean(y_set))
+    plt.scatter(x_set,y_set,marker='.')
     plt.scatter(np.mean(x_set),np.mean(y_set),marker = '*')
     plt.show()
 
